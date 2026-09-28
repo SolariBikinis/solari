@@ -528,12 +528,26 @@ nav {
 }
 
 .productos {
-    grid-template-columns: 1fr;
-    max-width: 450px;
+    grid-template-columns: repeat(3, 1fr);
+gap: 8px;
+    max-width: 100%;
 }
+.producto {
+padding: 6px;
+border-radius: 9px;
+} 
 
 .producto-imagen {
-    height: 430px;
+    height: 170px;
+border-radius: 9px;
+}
+.producto h3 {
+margin-top: 8px;
+font-size: 14px;
+}
+.producto p {
+margin: 5px 0 8px;
+font-size: 11px;
 }
 
 .info-card {
