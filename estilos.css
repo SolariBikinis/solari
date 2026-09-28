@@ -607,5 +607,18 @@ VISOR PARA CELULAR
 
     font-size: 29px;
 }
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 
 }
