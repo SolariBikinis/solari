@@ -1,127 +1,963 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Solari | Bikinis</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="estilos.css">
+
 </head>
+
 
 <body>
 
-    <!-- ENCABEZADO -->
-    <header>
-        <div class="logo">SOLARI</div>
 
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#productos">Productos</a>
-            <a href="#nosotros">Nosotros</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+<!-- =========================
+     PORTADA
+========================= -->
+<section class="hero">
+
+<div style="text-align: center;">
+
+    <h1 style="
+        font-size: 72px;
+        color: red;
+        margin-bottom: 15px;
+        font-family: Georgia, serif;
+        font-weight: bold;
+        text-shadow:
+            3px 3px 0 white,
+            6px 6px 12px rgba(0,0,0,0.8);
+        letter-spacing: 3px;
+    ">
+        Solari
+    </h1>
+
+    <div style="
+        margin-bottom: 18px;
+        color: white;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 4px;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+    ">
+        COLECCIÓN VERANO 26/27
+    </div>
+
+    <a href="#bikinis"
+       class="boton"
+       style="
+           background: red !important;
+           color: white !important;
+           border: 2px solid red !important;
+       ">
+        VER PRODUCTOS
+    </a>
+
+</div>
+</section>
 
 
-    <!-- INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="inicio-contenido">
-            <h1>Solari</h1>
-            <h2>Bikinis para disfrutar el verano</h2>
-            <p>Encontrá tu estilo y elegí tu modelo favorito.</p>
 
-            <a href="#productos" class="boton">Ver productos</a>
-        </div>
-    </section>
+<!-- =========================
+     BIKINIS
+========================= -->
+
+<section id="bikinis" class="seccion">
+
+ <h2 style="
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    color: #E53935;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding: 5px 25px;
+    margin-bottom: 5px;
+    text-shadow:
+        2px 2px 0 white,
+        3px 3px 5px rgba(0,0,0,0.20);
+">
+    Bikinis
+</h2>
+
+    <p class="subtitulo" style="
+        color: black;
+        font-weight: 800;
+        font-size: 20px;
+    ">
+        Elegí tu modelo favorito
+    </p>
+
+    <div class="productos">
 
 
-    <!-- PRODUCTOS -->
-    <section id="productos" class="productos">
-        <h2>Nuestros productos</h2>
+        <!-- PRODUCTO 1 -->
 
-        <p class="texto-seccion">
-            Conocé nuestra colección de bikinis y elegí el modelo que más te guste.
-        </p>
+        <div class="producto">
 
-        <div class="productos-contenedor">
+            <div class="producto-imagen carrusel">
 
-            <div class="producto">
-                <div class="producto-imagen">
-                    FOTO
-                </div>
-                <h3>Bikini modelo 1</h3>
-                <p>Consultar precio</p>
-                <button>Consultar</button>
+                <img
+                    src="4754.webp"
+                    alt="Bikini India"
+                    onclick="abrirVisor(['4754.webp','bikini3.webp'], 0)"
+                >
+
+                <img
+                    src="bikini3.webp"
+                    alt="Bikini India - segunda foto"
+                    onclick="abrirVisor(['4754.webp','bikini3.webp'], 1)"
+                >
+
             </div>
 
-            <div class="producto">
-                <div class="producto-imagen">
-                    FOTO
-                </div>
-                <h3>Bikini modelo 2</h3>
-                <p>Consultar precio</p>
-                <button>Consultar</button>
+            <h3>BIKINI INDIA</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar este modelo
+            </a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 2 -->
+
+     <div class="producto">
+<div class="producto-imagen carrusel">
+
+    <img
+        src="4754CRUZ...webp"
+        alt="Bikini CRUZ"
+        onclick="abrirVisor(['4754CRUZ...webp','4754CRUZ.webp'], 0)"
+    >
+
+    <img
+        src="4754CRUZ.webp"
+        alt="Bikini CRUZ - segunda foto"
+        onclick="abrirVisor(['4754CRUZ...webp','4754CRUZ.webp'], 1)"
+    >
+
+
             </div>
 
-            <div class="producto">
-                <div class="producto-imagen">
-                    FOTO
-                </div>
-                <h3>Bikini modelo 3</h3>
-                <p>Consultar precio</p>
-                <button>Consultar</button>
+            <h3>BIKINI CRUZ</h3>
+
+            <p>$20.000</p>
+
+            <p>Color: Lila/Blanco</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a class="boton" href="https://wa.me/5492645596611" target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 3 -->
+
+      <div class="producto">
+<div class="producto-imagen carrusel">
+
+    <img
+        src="HAWAI.webp"
+        alt="Bikini HAWAI"
+        onclick="abrirVisor(['HAWAI.webp','4754HAWAI.webp'], 0)"
+    >
+
+    <img
+        src="4754HAWAI.webp"
+        alt="Bikini HAWAI - segunda foto"
+        onclick="abrirVisor(['HAWAI.webp','4754HAWAI.webp'], 1)"
+    >
+
             </div>
 
-        </div>
-    </section>
+            <h3>BIKINI HAWAII</h3>
 
+            <p>$20.000</p>
 
-    <!-- NOSOTROS -->
-    <section id="nosotros" class="nosotros">
-        <h2>Sobre Solari</h2>
+            <p>Color: Verde/Naranja</p>
 
-        <p>
-            Somos un emprendimiento dedicado a la venta de bikinis,
-            pensado para ofrecer modelos modernos, cómodos y con estilo.
-        </p>
-    </section>
+            <p>Talle: 95 - 100</p>
 
+            <a class="boton" href="https://wa.me/5492645596611" target="_blank">
+                Consultar por WhatsApp
+            </a>
 
-    <!-- MEDIOS DE PAGO -->
-    <section class="informacion">
-        <div>
-            <h2>Medios de pago</h2>
-            <p>Consultá los medios de pago disponibles al realizar tu pedido.</p>
         </div>
 
-        <div>
-            <h2>Envíos</h2>
-            <p>Realizamos envíos. Consultá disponibilidad y costos.</p>
+
+
+        <!-- PRODUCTO 4 -->
+<div class="producto">
+<div class="producto-imagen carrusel">
+
+    <img
+        src="4754BATIK.webp"
+        alt="Bikini Batik"
+        onclick="abrirVisor(['4754BATIK.webp','4754BATIK..webp'], 0)"
+    >
+
+    <img
+        src="4754BATIK..webp"
+        alt="Bikini Batik - segunda foto"
+        onclick="abrirVisor(['4754BATIK.webp','4754BATIK..webp'], 1)"
+    >
+
+</div>
+
+            <h3>BIKINI BATIK</h3>
+
+            <p>$20.000</p>
+
+            <p>Color: Lila/Blanco</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a class="boton" href="https://wa.me/5492645596611" target="_blank">
+                Consultar por WhatsApp
+            </a>
+
         </div>
 
-        <div>
-            <h2>Pedidos</h2>
-            <p>Elegí tus productos y contactanos para realizar tu pedido.</p>
+
+
+        <!-- PRODUCTO 5 -->
+
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4754MARGARITA..webp"
+                    alt="Bikini MARGARITA"
+                    onclick="abrirVisor(['4754MARGARITA..webp','4754MARGARITA.webp'], 0)"
+                >
+
+                <img
+                    src="4754MARGARITA.webp"
+                    alt="Bikini MARGARITA - segunda foto"
+                    onclick="abrirVisor(['4754MARGARITA..webp','4754MARGARITA.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI MARGARITA</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
         </div>
-    </section>
 
 
-    <!-- CONTACTO -->
-    <section id="contacto" class="contacto">
-        <h2>Contactanos</h2>
 
-        <p>¿Encontraste un modelo que te gusta?</p>
-        <p>Escribinos y te ayudamos con tu pedido.</p>
+        <!-- PRODUCTO 6 -->
 
-        <a href="https://wa.me/5492640000000" class="boton">
-            WhatsApp
-        </a>
-    </section>
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="8010.webp"
+                    alt="Bikini MORLEY"
+                    onclick="abrirVisor(['8010.webp','8010B.webp'], 0)"
+                >
+
+                <img
+                    src="8010B.webp"
+                    alt="Bikini India - segunda foto"
+                    onclick="abrirVisor(['8010.webp','8010B.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI MORLEY</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
 
 
-    <!-- PIE DE PÁGINA -->
-    <footer>
-        <p>© 2026 Solari - Todos los derechos reservados.</p>
-    </footer>
+
+        <!-- PRODUCTO 7 -->
+
+     <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="8022.webp"
+                    alt="Bikini AURA"
+                    onclick="abrirVisor(['8022.webp','8022CHOCO.webp'], 0)"
+                >
+
+                <img
+                    src="8022.webp"
+                    alt="Bikini AURA - segunda foto"
+                    onclick="abrirVisor(['8022.webp','8022CHOCO.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI AURA</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+
+        </div>
+
+
+
+        <!-- PRODUCTO 8 -->
+
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="8120..webp"
+                    alt="Bikini NB"
+                    onclick="abrirVisor(['8120..webp','9120.webp'], 0)"
+                >
+
+                <img
+                    src="9120.webp"
+                    alt="Bikini NB - segunda foto"
+                    onclick="abrirVisor(['8120..webp','9120.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI NB</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 9 -->
+
+      <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4840.webp"
+                    alt="Bikini BN"
+                    onclick="abrirVisor(['4840.webp','4840..webp'], 0)"
+                >
+
+                <img
+                    src="4840..webp"
+                    alt="Bikini India - segunda foto"
+                    onclick="abrirVisor(['4840.webp','4840..webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI BN</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 10 -->
+
+       <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4845..webp"
+                    alt="Bikini TENERIFE"
+                    onclick="abrirVisor(['4845..webp','4845.webp'], 0)"
+                >
+
+                <img
+                    src="4845.webp"
+                    alt="Bikini TENERIFE - segunda foto"
+                    onclick="abrirVisor(['4845..webp','4845.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI TENERIFE</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 11 -->
+
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4800..webp"
+                    alt="Bikini MICRO"
+                    onclick="abrirVisor(['4800..webp','4800.webp'], 0)"
+                >
+
+                <img
+                    src="4800.webp"
+                    alt="Bikini MICRO - segunda foto"
+                    onclick="abrirVisor(['4800..webp','4800.webp'], 1)"
+                >
+
+            </div>
+
+            <h3>BIKINI MICRO</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+            </a>
+
+
+        </div>
+
+
+
+        <!-- PRODUCTO 12 -->
+
+     
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4950.webp"
+                    alt="Bikini JACQUARD"
+                    onclick="abrirVisor(['4950.webp','4950..webp','4950...webp'], 0)"
+                >
+
+                <img
+                    src="4950..webp"
+                    alt="Bikini JACQUARD - segunda foto"
+                    onclick="abrirVisor(['4950.webp','4950..webp','4950...webp'], 1)"
+>
+<img
+                    src="4950...webp"
+                    alt="Bikini JACQUARD - tercera foto"
+                    onclick="abrirVisor(['4950.webp','4950..webp','4950...webp'], 2)"
+                >
+
+            </div>
+
+            <h3>BIKINI JACQUARD</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+</a>
+      
+        </div>
+
+
+
+        <!-- PRODUCTO 13 -->
+
+            <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="4790.......webp"
+                    alt="Bikini REVERSIBLE"
+                    onclick="abrirVisor(['4790.......webp','4790.webp','4790...webp'], 0)"
+                >
+
+                <img
+                    src="4790.webp"
+                    alt="Bikini REVERSIBLE - segunda foto"
+                    onclick="abrirVisor(['4950.......webp','4790.webp','4790...webp'], 1)"
+>
+<img
+                    src="4790...webp"
+                    alt="Bikini REVERSIBLE - tercera foto"
+                    onclick="abrirVisor(['4790.......webp','4790.webp','4790...webp'], 2)"
+                >
+
+            </div>
+
+            <h3>BIKINI REVERSIBLE</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+</a>
+
+        </div>
+
+
+
+        <!-- PRODUCTO 14 -->
+
+        <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="801...webp"
+                    alt="ENETRIZA"
+                    onclick="abrirVisor(['801...webp','801.webp','801..webp'], 0)"
+                >
+
+                <img
+                    src="801.webp"
+                    alt="ENTERIZA - segunda foto"
+                    onclick="abrirVisor(['801...webp','801.webp','801..webp'], 1)"
+>
+<img
+                    src="801..webp"
+                    alt="ENTERIZA - tercera foto"
+                    onclick="abrirVisor(['801...webp','801.webp','801..webp'], 2)"
+                >
+
+            </div>
+
+            <h3>ENTERIZA</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+</a>
+        </div>
+
+
+
+        <!-- PRODUCTO 15 -->
+
+       <div class="producto">
+
+            <div class="producto-imagen carrusel">
+
+                <img
+                    src="140.webp"
+                    alt="ENTERIZA"
+                    onclick="abrirVisor(['140.webp','140...webp'], 0)"
+                >
+
+                <img
+                    src="140...webp"
+                    alt="Bikini JACQUARD - segunda foto"
+                    onclick="abrirVisor(['140.webp','140...webp'], 1)"
+
+                >
+
+            </div>
+
+            <h3>ENTERIZA</h3>
+
+            <p>$25.000</p>
+
+            <p>Color: Yvori/Chocolate</p>
+
+            <p>Talle: 95 - 100</p>
+
+            <a
+                class="boton"
+                href="https://wa.me/5492645596611"
+                target="_blank">
+                Consultar por WhatsApp
+</a>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+<!-- =========================
+     INFORMACIÓN
+========================= -->
+<section class="seccion"><div class="info-card">
+
+    <h3>Envíos</h3>
+
+    <p>
+        Realizamos envíos. Consultá por disponibilidad y costo.
+    </p>
+
+</div>
+
+
+<div class="info-card">
+
+    <h3>Medios de pago</h3>
+
+    <p>
+        Consultá los medios de pago disponibles.
+    </p>
+
+</div>
+
+
+<div class="info-card">
+
+    <h3>Pedidos</h3>
+
+    <p>
+        Hacé tu pedido directamente por WhatsApp.
+    </p>
+
+</div>
+
+</section>
+
+<!-- =========================
+     SOBRE SOLARI
+========================= -->
+<section class="seccion nosotros"><h2>Sobre Solari</h2>
+
+<p>
+    Somos un emprendimiento dedicado a ofrecer bikinis
+    para disfrutar el verano con estilo y comodidad.
+</p>
+
+</section>
+<!-- =========================
+     CONTACTO
+========================= -->
+<section class="seccion contacto">
+<h2>Contacto</h2>
+
+<p>
+    ¿Te gustó algún modelo?
+</p>
+
+<a
+    class="boton"
+    href="https://wa.me/5492645596611"
+    target="_blank">
+    Escribinos por WhatsApp
+</a>
+
+</section>
+<!-- =========================
+     PIE
+========================= -->
+<footer><p>© 2026 Solari | Bikinis</p>
+
+</footer>
+
+
+<!-- =========================
+     VISOR DE FOTOS
+========================= -->
+
+<div id="visorFotos" class="visor-fotos">
+
+    <button
+        class="cerrar-visor"
+        onclick="cerrarVisor()">
+        ×
+    </button>
+
+    <button
+        class="flecha-visor izquierda"
+        onclick="fotoAnterior()">
+        ‹
+    </button>
+
+    <img
+        id="fotoGrande"
+        src=""
+        alt="Foto del bikini">
+
+    <button
+        class="flecha-visor derecha"
+        onclick="fotoSiguiente()">
+        ›
+    </button>
+
+</div>
+
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+
+let fotosActuales = [];
+
+let indiceActual = 0;
+
+
+function abrirVisor(fotos, indice) {
+
+    fotosActuales = fotos;
+
+    indiceActual = indice;
+
+    document.getElementById("fotoGrande").src =
+        fotosActuales[indiceActual];
+
+    document.getElementById("visorFotos").classList.add("activo");
+
+    document.body.style.overflow = "hidden";
+
+}
+
+
+function cerrarVisor() {
+
+    document.getElementById("visorFotos").classList.remove("activo");
+
+    document.body.style.overflow = "";
+
+}
+
+
+function fotoAnterior() {
+
+    indiceActual--;
+
+    if (indiceActual < 0) {
+
+        indiceActual = fotosActuales.length - 1;
+
+    }
+
+    document.getElementById("fotoGrande").src =
+        fotosActuales[indiceActual];
+
+}
+
+
+function fotoSiguiente() {
+
+    indiceActual++;
+
+    if (indiceActual >= fotosActuales.length) {
+
+        indiceActual = 0;
+
+    }
+
+    document.getElementById("fotoGrande").src =
+        fotosActuales[indiceActual];
+
+}
+
+
+/* Cerrar tocando fuera de la foto */
+
+document.getElementById("visorFotos").addEventListener("click", function(e) {
+
+    if (e.target === this) {
+
+        cerrarVisor();
+
+    }
+
+});
+
+
+/* Teclado */
+
+document.addEventListener("keydown", function(e) {
+
+    const visor = document.getElementById("visorFotos");
+
+    if (!visor.classList.contains("activo")) return;
+
+
+    if (e.key === "Escape") {
+
+        cerrarVisor();
+
+    }
+
+
+    if (e.key === "ArrowLeft") {
+
+        fotoAnterior();
+
+    }
+
+
+    if (e.key === "ArrowRight") {
+
+        fotoSiguiente();
+
+    }
+
+});
+
+
+
+/* DESLIZAR CON EL DEDO EN CELULAR */
+
+let inicioX = 0;
+
+let finX = 0;
+
+
+document.getElementById("visorFotos").addEventListener("touchstart", function(e) {
+
+    inicioX = e.touches[0].clientX;
+
+});
+
+
+document.getElementById("visorFotos").addEventListener("touchend", function(e) {
+
+    finX = e.changedTouches[0].clientX;
+
+    const diferencia = finX - inicioX;
+
+
+    if (Math.abs(diferencia) < 50) return;
+
+
+    if (diferencia < 0) {
+
+        fotoSiguiente();
+
+    } else {
+
+        fotoAnterior();
+
+    }
+
+});
+
+</script>
+
 
 </body>
+
 </html>
