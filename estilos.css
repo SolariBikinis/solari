@@ -661,3 +661,7 @@ white-space: normal;
         font-size: 17px;
     }
 }
+.producto h3 {
+psoition: relative;
+z-index: 20;
+}
